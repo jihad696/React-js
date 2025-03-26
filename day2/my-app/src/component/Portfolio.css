@@ -1,0 +1,24 @@
+.portfolio {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .portfolio-title {
+    color: #343a40;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  
+  .portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .portfolio-grid > * {
+    flex: 1 1 300px;
+  }
+  
